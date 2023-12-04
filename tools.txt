@@ -1,0 +1,18 @@
+1. tsc --init ** me crea el archivo tsconfig.json
+2. En la terminal escribir tsc, Este comando lee el archivo tsconfig.json y restablece las opciones del proyecto.
+3. para la compilacion. en la terminal escribir tsc "nombre del archivo con su extension", el compilador deberia ejecutarse sin errores
+
+5.JavaScript es un lenguaje de tipos dinámicos. Aunque esto facilita la declaración de variables, en algunos casos puede provocar resultados inesperados. El sistema de tipos estáticos de TypeScript permite describir la forma de un objeto, proporcionando una mejor documentación y permitiendo que TypeScript valide que el código funciona correctamente. En TypeScript, las declaraciones de espacios de nombres, clases, propiedades, funciones, variables y otras entidades de lenguaje asocian tipos a esas entidades. La forma en que se forma un tipo y se asocia a una entidad de lenguaje depende del tipo de entidad.
+
+let x: number;   //* Explicitly declares x as a number type
+let y = 1;       //* Implicitly declares y as a number type
+let z;           //* Declares z without initializing it
+
+Tipos primitivos
+Los tipos primitivos son los tipos boolean, number, string, void, null y undefined, junto con enumeración definida por el usuario o tipos enum. El tipo void existe únicamente para indicar la ausencia de un valor, como en una función sin ningún valor devuelto. Los tipos null y undefined son subtipos de todos los demás tipos. No es posible hacer referencia explícita a los tipos null y undefined. Solo se puede hacer referencia a los valores de esos tipos mediante los literales null y undefined.
+
+Tipos de objeto y parámetros de tipo
+Los tipos de objeto son todos los tipos de clase, interfaz, matriz y literal (todo lo que no sea un tipo primitivo).
+
+Los tipos de clase e interfaz se introducen mediante las declaraciones de clase e interfaz, y se hace referencia a ellos con el nombre que se les ha asignado en sus declaraciones. Los tipos de clase e interfaz pueden ser tipos genéricos que tienen uno o más parámetros de tipo.
+
